@@ -108,10 +108,12 @@
 
 .cakesDes h3{
     font-weight: bolder;
+    color:  #E9398F;
 }
 
 .cakesDes p{
     font-weight: bold;
+    text-align: justify;
 }
 
 .cakesDes img{
@@ -120,4 +122,38 @@
 
 .btn{
     font-weight: bolder;
+}
+
+
+@media(min-width:768px) {
+    .mainTittle h1 {
+        font-size: 50px;
+    }
+
+    .mainTittle h2 {
+        font-size: 18px;
+    }
+
+    .footer h5 {
+        font-size: 25px;
+    }
+
+    .footer p {
+        font-size: 15px;
+    }
+}
+
+@media(min-width: 992px) {
+    .mainTittle h1{
+        font-size: 60px;
+    }
+
+    .mainTittle h2 {
+        font-size: 20px;
+    }
+
+       /*Features for ''nuestras delicias''*/
+       .ourProducts{
+        height: 300px;
+    }
 }
