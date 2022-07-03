@@ -26,8 +26,10 @@
 
 
 /*This is the design for the navigation bar (applies to all pages)*/
-
-
+.navbar{
+    font-family: Montserrat;
+    font-weight: bolder;
+}
 
 /*This is the design for the footer (applies to all pages)*/
 .footer{
@@ -152,8 +154,21 @@
         font-size: 20px;
     }
 
+    .navbar ul li{
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .footer h5 {
+        font-size: 30px;
+    }
+
+    .paymentLogo{
+        width: 300px;
+    }
+
        /*Features for ''nuestras delicias''*/
        .ourProducts{
-        height: 300px;
+        height: 400px;
     }
 }
