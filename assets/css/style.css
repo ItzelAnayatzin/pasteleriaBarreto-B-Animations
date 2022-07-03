@@ -263,7 +263,11 @@
     
 
        /*Features for ''nosotros''*/
-       .greetingImg p{
+    .greetingImg{
+        height: 400px;
+    }
+
+    .greetingImg p{
         font-size: 25px;
     }
 
@@ -272,12 +276,12 @@
     }
 
        /*Features for ''nuestras delicias''*/
-       .ourProducts{
+    .ourProducts{
         height: 400px;
     }
 
       /*Features for ''encuentranos''*/
-      .findUs{
+    .findUs{
         height: 400px;
     }
 
