@@ -91,6 +91,41 @@
 }
 
 
+/*This is the design for the page ''nosotros''*/
+.greetingImg{
+    background-image: url(../img/backgroundAu.jpg);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Montserrat;
+}
+
+.greetingImg h2{
+    font-weight: bolder;
+}
+
+.greetingImg p{
+    font-weight: bold;
+}
+
+.biosOwners{
+    font-family: Montserrat;
+}
+
+.biosOwners h3{
+    font-weight: bolder;
+}
+
+.biosOwners p{
+    font-weight: bold;
+    text-align: justify;
+}
+
+.bioOwner img{
+    width: 50%;
+}
+
+
 /*This is the design for the page ''nuestras delicias''*/
 .ourProducts{
     background-image: url(../img/backgroundOp.jpg);
@@ -126,6 +161,65 @@
     font-weight: bolder;
 }
 
+/*This is the design for the page ''encuentranos''*/
+.findUs{
+    background-image: url(../img/backgroundFu2.jpg);
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Montserrat;
+}
+
+.findUs h2{
+    font-weight: bolder;
+}
+
+.findUs p{
+    font-weight: bolder;
+}
+
+.basicInfo{
+    font-family: Montserrat;
+}
+
+.basicInfo h3{
+    font-weight: bolder;
+    color: #E9398F;
+}
+
+.basicInfo p{
+    font-weight: bold;
+}
+
+
+/*This is the design for the page ''contacto''*/
+.contactUs{
+    background-image: url(../img/backgroundContact.jpg);
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Montserrat;
+}
+
+.contactUs h2{
+    font-weight: bolder;
+}
+
+.textInfo{
+    font-family: Montserrat;
+}
+
+.textInfo p{
+    font-weight: bold;
+}
+
+.forCostumer{
+    font-family: Montserrat;
+}
+
+.forCostumer label{
+    font-weight: bold;
+}
 
 @media(min-width:768px) {
     .mainTittle h1 {
@@ -166,9 +260,36 @@
     .paymentLogo{
         width: 300px;
     }
+    
+
+       /*Features for ''nosotros''*/
+       .greetingImg p{
+        font-size: 25px;
+    }
+
+    .biosOwners p{
+        font-size: 18px;
+    }
 
        /*Features for ''nuestras delicias''*/
        .ourProducts{
         height: 400px;
+    }
+
+      /*Features for ''encuentranos''*/
+      .findUs{
+        height: 400px;
+    }
+
+    .basicInfo p{
+        font-size: 20px;
+    }
+
+      /*Features for ''encuentranos''*/
+    .contactUs{
+        height: 400px;
+    }
+    .textInfo p{
+        font-size: 19px;
     }
 }
